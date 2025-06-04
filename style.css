@@ -1,0 +1,83 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+body {
+    background-image: url('https://i.pinimg.com/originals/32/05/70/3205708bb1d891e51a85d6f221461e73.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Overlay to position text */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* dark transparent overlay */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 40px;
+}
+
+/* Left Section */
+.left {
+    width: 30%;
+}
+
+.left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+
+.left ul {
+    list-style-type: none;
+}
+
+.left li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Middle Section */
+.middle {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 0.85rem;
+    color: #8B0000; /* dark red */
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Right Section */
+.right {
+    width: 30%;
+    text-align: right;
+}
+
+.right h1 {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
